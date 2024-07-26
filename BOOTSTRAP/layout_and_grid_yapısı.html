@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>bootstrap dahil etme</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--bu kısımda bu link sayesinde bütün herşeye ulaşabiliriz bootstrapda   -->
+</head>
+<body>
+
+
+    <!-- CONTEYNİR YAPISINA BAKALIM -->
+
+<!--     <div class="container bg-warning" >
+        <h1>Muhammet Can Kaya</h1>
+        bu yapıda mobile uyumlu olması için konteynir 
+         dinamik hareket edebilir ilgili bilgiler documanda var 
+    </div> -->
+
+
+
+<!--     <br>
+    <div class="container-sm bg-warning" >
+        <h1>Muhammet Can Kaya</h1>
+    </div>
+    <br>
+    <div class="container-fuid bg-warning" >
+        <h1>Muhammet Can Kaya</h1>
+    </div> -->
+    <!-- BU ŞEKİLDE KONTEYNIR ÇEŞİTLERİ MEVCUTTTUR -->
+
+
+    <!-- GRİD YAPISI
+     BİR SATIR 12 PARÇADAN OLUŞUR BU 12 PARÇALIK YERİ
+     DİLERSEK PARÇALAYABİLİRİZ sm yerine sayı yazarsak 3 mesela
+     12 de üçlük yerini o sutun kaplar  -->
+
+    <div class="contaier">
+        <div class="row bg-warning" style="height: 150px;font-size: larger;text-shadow: 0cqb; text-align: center;" >
+            <div class="col-sm bg-primary text-light">1.sutun</div>
+            <div class="col-sm bg-danger text-light">2.sutun</div>
+            <div class="col-sm bg-success text-light">3.sutun</div>
+            <!-- burada columb sm yazan yer satırı sutuna bölüp 
+             bu bölmeden sm dediğimizde hepsini eşit aralıkla small 
+             şekilde böldü -->
+        </div>
+    </div>
+    <br>
+    
+    <div class="contaier">
+        <div class="row align-items-start bg-warning" style="height: 150px;font-size: larger;text-shadow: 0cqb; text-align: center;" >
+            <div class="col-sm bg-primary text-light">1.sutun</div>
+            <div class="col-sm bg-danger text-light">2.sutun</div>
+            <div class="col-sm bg-success text-light">3.sutun</div>
+            <!-- vertical aignment 
+             burada sutunun başlığı gibi durmasını sağlar istersen yazıyı 
+             ortaya aşağı sağa  sola alabilirz
+             align-items-start yerine center veya ent round gibi başka 
+             kelimeler kullanarak conteynir içinde hareket sağlayabiliriz -->
+        </div>
+    </div>
+    <br>
+    <div class="contaier">
+        <div class="row  bg-warning" style="height: 150px;font-size: larger;text-shadow: 0cqb; text-align: center;" >
+            <div class="col-sm align-self-start bg-primary text-light">1.sutun</div>
+            <div class="col-sm align-self-center bg-danger text-light">2.sutun</div>
+            <div class="col-sm align-self-end bg-success text-light">3.sutun</div>
+        
+        </div>
+    </div>
+    <br>
+    <div class="contaier">
+        <div class="row justify-content-around bg-warning align-items-center" style="height: 150px;font-size: larger;text-shadow: 0cqb; text-align: center;" >
+            <div class="col-2 bg-primary text-light" style="height: 30%;">1.sutun</div>
+            <div class="col-2 bg-danger text-light" style="height: 30%;">2.sutun</div>
+            <div class="col-2 bg-success text-light" style="height: 30%;" >3.sutun</div>
+        <!-- satırda hizalama yukarıda sutun üzerinde aşağımı ortamı onu belirledik -->
+            <!-- burada justify start center end around -->
+        </div>
+    </div>
+
+</body>
+</html>
